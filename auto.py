@@ -24,8 +24,8 @@ subprocess.call(['git', 'commit', '-m', f'{message}'])
 dialog = pexpect.spawn('git push -u origin master')
 dialog.expect('''Username for 'https://github.com': ''')
 dialog.sendline(login)
-dialog.expect('''Password for 'https://Denis-Gerashchenko@github.com': ''')
-dialog.sendline(password)
+# dialog.expect('''Password for 'https://Denis-Gerashchenko@github.com': ''')
+# dialog.sendline(password)
 
 
 
