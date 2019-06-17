@@ -26,7 +26,7 @@ dialog.expect('''Username for 'https://github.com': ''')
 dialog.sendline(login)
 # dialog.expect('''Password for 'https://Denis-Gerashchenko@github.com': ''')
 # dialog.sendline(password)
-
+#4f
 
 
 
